@@ -17,7 +17,7 @@
 
 <page-query>
 query ($page: Int) {
-  posts: allPost(filter: { published: { eq: true }},perPage: 10, page: $page) @paginate {
+  posts: allPost(filter: { published: { eq: true }},perPage: 1, page: $page) @paginate {
         pageInfo {
       totalPages
       currentPage
@@ -64,7 +64,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .pager {
   display: inline-block;
   width: 100%;
