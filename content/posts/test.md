@@ -1,7 +1,7 @@
 ---
 title: A post with a cover image
 date: 2019-01-07
-published: false
+published: true
 tags: ['Markdown', 'Cover Image']
 series: false
 coverImage: ./images/alexandr-podvalny-220262-unsplash.jpg
