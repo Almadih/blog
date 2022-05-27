@@ -6,7 +6,7 @@ tags: ['npm', 'node']
 series: false
 coverImage: ./images/npm-svg.png
 canonical_url: false
-description: "I was a windows gpy for a long time, when i moved to linux i am not gonna lie i missed some applications from windows.."
+description: "I was a windows guy for a long time, when i moved to linux i am not gonna lie i missed some applications from windows.."
 ---
 
 
