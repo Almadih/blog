@@ -6,10 +6,10 @@ tags: ['python', 'google cloud','telegram','cloud functions']
 series: false
 coverImage: ./images/twitter.jpg
 canonical_url: false
-description: "I normally don't like to whole app just to do a simple thing, I tried to download a video from twitter..."
+description: "I normally don't like to download whole app just to do a simple thing, I tried to download a video from twitter..."
 ---
 
-I normally don't like to whole app just to do a simple thing, I tried to download a video from twitter first thing came in my mind is telegram there is a bot for everything, well i found one and it was unreliable. So is said le me make my own!.  
+I normally don't like to download whole app just to do a simple thing, I tried to download a video from twitter first thing came in my mind is telegram there is a bot for everything, well i found one and it was unreliable. So i said let me make my own!.  
 
 ### Twitter API
 
@@ -19,7 +19,7 @@ I try to find another way and luckily i found this [repository](https://github.c
 ### Deployment 
 
 deploying a telegram bot was always a problem from me since it need to run alway on a server (this before i discover the perfect situation to use webhooks), recently i activated my google cloud account and now i can try the power of serverless functions!.
-So the structure of the project is an Http-triggered cloud function which act as webhook for the bot, every time the bot receive a message the function called.  
+So the structure of the project is Http-triggered cloud function which act as webhook for the bot, every time the bot receive a message the function called.  
 
 ### Code
 Here is the link to the [repository](https://github.com/Almadih/twitter-videos-downloader-bot) you can find all technical stuff there.
