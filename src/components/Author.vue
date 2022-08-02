@@ -10,7 +10,7 @@
     />
 
     <h1 v-if="showTitle" class="author__site-title">
-      {{ $static.metaData.siteName }}
+      {{ $static.metadata.siteName }}
     </h1>
 
     <p class="author__intro">
@@ -27,7 +27,7 @@
 
 <static-query>
 query {
-  metaData {
+  metadata {
     siteName
   }
 }
