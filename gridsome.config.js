@@ -7,8 +7,8 @@
 module.exports = {
   siteName: 'Almadih\'s Blog',
   siteDescription: 'Almadih\'s Personal Blog',
-  siteUrl: 'https://almadih.github.io',
-  pathPrefix: '/blog',
+  siteUrl: 'https://blog.almadih.dev',
+  pathPrefix: '/',
 
   plugins: [
     {
